@@ -16,5 +16,5 @@ def weather_today():
 slack = Slacker('Code') 
 
 # 메세지 전송
-slack.chat.post_message('#알림_', '오늘도 좋은 아침! ')
+# slack.chat.post_message('#알림_', '오늘도 좋은 아침! ')
 slack.chat.post_message('#알림_', '오늘 날씨: ' + weather_today())
